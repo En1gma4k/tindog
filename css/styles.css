@@ -21,9 +21,14 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.5;
   }
 
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+  }
+
 #title .container-fluid {
   padding: 1% 15% 7%;
-  text-align: left;
 }
 
 .container-fluid{
@@ -159,8 +164,8 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 5%;
 }
 
-@media (max-width: 1028px) {
-  #title {
+@media screen and (max-width: 1028px) {
+  #title{
     text-align: center;
   }
   .title-img {
